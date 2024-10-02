@@ -21,16 +21,22 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
+
 
 .filho {
     width: 80px;
     height: 80px;
     border-radius: 50px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cor1 {
@@ -38,11 +44,15 @@ h1 {
 }
 
 .cor2 {
+    margin-left: 20%;
+    order: 1;
     background-color: #63B1BC;
 }
 
 .cor3 {
+    margin-left: 10%;
     background-color: #EFB661;
+
 }
 
 .instrucoes {
